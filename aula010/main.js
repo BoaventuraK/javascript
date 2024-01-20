@@ -1,3 +1,5 @@
+//if else
+
 let pessoa={nome:"Alana", idade:19, sexo:"f"}
 
 console.log(pessoa)
