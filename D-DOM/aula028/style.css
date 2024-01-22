@@ -1,0 +1,24 @@
+div.clase{
+    margin: 8px;
+    padding: 4px;
+    width: 200px;
+    border: 4px solid rgb(26, 26, 26);
+    border-radius: 10px;
+    background-color: chocolate;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.clase:hover{
+    border-color: red;
+}
+
+div.c1{
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+div.c2{
+    background-color: rgb(136, 136, 136);
+    color: black;
+}
