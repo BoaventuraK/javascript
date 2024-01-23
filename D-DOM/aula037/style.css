@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Exo 2', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: crimson;
+    background-image: linear-gradient(360deg, rgb(255, 117, 128), crimson);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+section.cax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+}
+
+#cx1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cx2{
+    overflow-y: auto;
+}
+
+#cx2::-webkit-scrollbar{
+    display: none;
+}
+
+div#btns{
+    margin-top: 20px;
+}
+
+button{
+    display: block;
+    border: none;
+    width: 200px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
+    background-color: palevioletred;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button#addA, button#addD{
+    background-color: darksalmon;
+}
+
+button#delete{
+    background-color: crimson;
+}
+
+button#selec{
+    background-color: rgb(255, 117, 128);
+}
+
+button:hover{
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.308);
+    transform: translate(0px, -5px);
+    transition: .2s;
+}
+
+div#inp{
+    display: flex;
+    flex-direction: column;
+}
+
+input#newCurso{
+    font-size: 1.5em;
+    border: 1px solid rgba(220, 20, 60, 0.295); 
+    background-color: rgba(212, 184, 194, 0.589);
+    width: 250px;
+    padding: 20px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.178);
+}
+
+input#newCurso:focus{
+    border: 2px solid rgb(220, 20, 60);
+    background-color: aliceblue;
+}
+
+label{
+    font-size: 1.3em;
+    margin-bottom: 5px
+}
+
+.cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    background-color: crimson;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 1.3em;
+    width: 200px;
+    margin: 5px;
+}
