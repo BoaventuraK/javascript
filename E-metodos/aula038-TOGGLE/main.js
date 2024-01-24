@@ -84,4 +84,3 @@ btAddA.addEventListener('click',(evt)=>{
         alert('Selecione um curso!')
     }
 })
-
