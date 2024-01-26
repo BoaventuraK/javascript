@@ -23,4 +23,5 @@ bt.addEventListener('click',(evt)=>{
         return anterior+atual
     })
     res.innerHTML+="<br>V.Anterios: "+ant+"<br>V.atual: "+atu+"<br>V.Dobro: "+dob
+    
 })
