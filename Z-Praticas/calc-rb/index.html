@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora com radioButton</title>
+</head>
+<body>
+    
+    <main id="cx">
+        <section id="ent">
+            <label for="n1">Primeiro numero</label>
+            <input type="number" id="n1" class="inp" placeholder="Digite um numero">
+
+            <label for="n2">Segundo numero</label>
+            <input type="number" id="n2" class="inp" placeholder="Digite um numero">
+        </section>
+
+        <section id="rb">
+            <div>
+                <label for="r1">+</label>
+                <input type="radio" name="rd" id="r1" class="rbs">
+            </div>
+            <div>
+                <label for="r2">-</label>
+                <input type="radio" name="rd" id="r2" class="rbs">
+            </div>
+            <div>
+                <label for="r3">x</label>
+                <input type="radio" name="rd" id="r3" class="rbs">
+            </div>
+            <div>
+                <label for="r4">/</label>
+                <input type="radio" name="rd" id="r4" class="rbs">
+            </div>
+        
+        </section>
+
+        <button id="calc">Calcular</button>
+
+        <section id="res">
+            <p>Resultaso:</p>
+            <p id="resp"></p>
+        </section>
+
+    </main>
+
+    <script src="mian.js"></script>
+</body>
+</html>
