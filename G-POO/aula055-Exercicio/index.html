@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio - Classes</title>
+</head>
+<body>
+    <main>
+        <section id="inp">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" class="ent" placeholder="Nome do veiculo" autocomplete="off">
+
+            <label for="portas">Protas</label>
+            <input type="number" id="portas" class="ent" placeholder="Quantidade de portas" autocomplete="off">
+
+            <label for="blindagem">Blindagem</label>
+            <input type="number" name="blindagem" id="blindagem" class="ent" value="0" disabled autocomplete="off">
+
+            <label for="municao">Munição</label>
+            <input type="number" name="municao" id="municao" class="ent" value="0" disabled autocomplete="off">
+        </section>
+
+        <section id="radio">
+            <p>Tipo</p>
+
+            <div class="rb">
+                <input type="radio" name="rad" id="rMilitar">
+                <label for="rMilitar">Militar</label>
+            </div>
+
+            <div class="rb">
+                <input type="radio" name="rad" id="rNormal" checked>
+                <label for="rNormal">Normal</label>
+            </div>
+        </section>
+
+        <button id="btAdd">Adicionar</button>
+
+        <section id="ltCarros"></section>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
