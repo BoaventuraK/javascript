@@ -1,0 +1,109 @@
+@charset "U*TF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+main#calc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid aquamarine;
+    background-color: azure;
+    width: 270px;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.411);
+
+    transform: translate(-50%,-50%);
+
+}
+
+/* -TITULO- */
+section#nome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+}
+
+section#nome > p{
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+/* -DISPLAY- */
+
+section#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    margin-bottom: 8px;
+}
+
+p#dp{
+    font-family: monospace !important;
+    font-size: 1.5em;
+    padding: 5px;
+    background-color: lightgrey;
+    width: 250px;
+    text-align: right;
+}
+
+/* -TECLAS- */
+
+section#teclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+button.tcl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    border: 3px solid grey;
+    background-color: darkgrey;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    border-radius: 10px;
+    margin: 1px;
+    font-size: 1.2em;
+}
+
+button.tclOp{
+    border: 3px solid #800 !important;
+    background-color: #f44 !important;
+}
+
+button.tcl:hover{
+    background-color: rgb(133, 133, 133);
+}
+
+button.tclOp:hover{
+    background-color: rgb(202, 53, 53) !important;
+}
