@@ -1,0 +1,24 @@
+#cx{
+    font-size: 1.8em;
+}
+
+.ok{
+    color: blue;
+}
+
+.erro{
+    color: red;
+}
+
+#btn{
+    background-color: violet;
+    border: 2px solid blueviolet;
+    font-size: 1.2em;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(201, 85, 201);
+}
