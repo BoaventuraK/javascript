@@ -9,4 +9,4 @@ setInterval(()=>{
     minuto.innerHTML=data.getMinutes()
     segundo.innerHTML=data.getSeconds()
 
-},100)
+},1000)

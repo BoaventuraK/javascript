@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <p id="pData"></p>
+    <main id="timer">
+        <p id="pData"></p>
+        <div id="relogio">00:00:00</div>
+
+        <div id="def_alarm">
+            <label for="hora" id="hora">Hora alarme:</label>
+            <label for="define_alarme">Tempo do alarme(segundos)</label>
+            <input type="number" name="define_alarme" id="define_alarme">
+        </div>
+
+        <div id="btn">
+            <button id="bt_ativar">Ativar</button>
+            <button id="bt_parar">Parar</button>
+        </div>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
