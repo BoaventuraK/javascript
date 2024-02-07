@@ -1,0 +1,36 @@
+*{
+    border: noen;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+}
+
+#olhos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+
+    transform: translate(-50%,-50%);
+}
+
+.olho{
+    width: 200px;
+    height: 200px;
+    transform-origin: center center;
+}

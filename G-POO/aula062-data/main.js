@@ -36,10 +36,6 @@ bt_para.addEventListener("click",(evt)=>{
     som_alarme.currentTime=0
 })
 
-
-
-
-
 const data=new Date()//declaração do um obj da clase Date
 
 console.log(data)
