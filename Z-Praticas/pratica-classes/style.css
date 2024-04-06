@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 10px;
+    padding: 15px;
+    width: 98vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: beige
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 33%;
+    height: 115px;
+    border: 2px solid rgb(53, 53, 53);
+    border-radius: 15px;
+    margin: 8px;
+    padding: 10px;
+    background-color: darkgray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
+input[type='number'], p{
+    width: 65%;
+    border: 2px solid darkolivegreen;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.356);
+}
+
+input:focus-visible{
+    background-color: floralwhite;
+}
+
+button{
+    width: 65%;
+    padding: 8px;
+    margin-top: 3px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 98vw;
+    min-height: 65vh;
+
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: beige;
+    position: absolute;
+    overflow: hidden;
+}
+
+.boll{
+    position: absolute;
+    border-radius: 100%;
+}
